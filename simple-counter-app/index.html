@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Counter App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Simple Counter</h1>
+        <p>Click the buttons to count up, count down, or reset the number.</p>
+      </header>
+
+      <section class="counter-card" aria-label="Counter app">
+        <div class="count-display" id="count" aria-live="polite">0</div>
+
+        <div class="button-row">
+          <button id="decrease" type="button">-</button>
+          <button id="reset" type="button">Reset</button>
+          <button id="increase" type="button">+</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
